@@ -1,0 +1,139 @@
+body {
+    margin: 0%;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.banner {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(logo-img.png);
+}
+
+.logo-text {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+h1 {
+    border: black solid 3px;
+    border-radius: 5px;
+}
+
+.logo-green {
+    display: block;
+    text-align: center;
+    color: rgb(43, 105, 27);
+}
+
+.logo-red {
+    display: block;
+    color: rgb(139, 10, 10);
+    font-size: 25px;
+}
+
+.ak-img {
+    width: 150px;
+    height: auto;
+}
+
+.sites {
+    flex: 1;
+    font-size: 25px;
+    background-color: #3D3D3D;
+
+}
+
+.links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: #DDC700;
+}
+
+.a:hover {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    background-color: #DDC700;
+}
+
+
+.questions {
+    background-image: url(bg-img1.png);
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+    color: #C0BA97;
+}
+
+.text1 {
+    transform: rotate(7.3deg);
+}
+
+.text2 {
+    transform: rotate(0deg);
+}
+
+.text3 {
+    transform: rotate(-8.5deg);
+}
+
+.text4 {
+    transform: rotate(0deg);
+}
+
+.text5 {
+    transform: rotate(-14.24deg);
+}
+
+.text6 {
+    transform: rotate(7.1deg);
+}
+
+.section2 {
+    text-align: center;
+    padding: 30px;
+    width: 35%;
+}
+
+.lore {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: start;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.main-text {}
